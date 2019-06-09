@@ -11,41 +11,39 @@ body {
     margin-bottom: 80px;
     padding: 2px;
     font-size: 18px;
+    box-sizing: border-box;
+}
+
+section,article,p {
+    float: left;
+}
+
+header,nav,section,aside {
+    background: #ebebeb
 }
 
 header {
     padding: 20px;
     margin-bottom: 20px;
     width: 960px;
-    background: #ebebeb;
     color: #777;
-}
-
-#wrapper {
-    width: 960px;
-    min-width: 340px;
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 nav {
     padding: 20px;
     margin-bottom: 20px;
     width: 960px;
-    background: #ebebeb;
 }
 
 aside {
-    background: #ebebeb;
-    float: right;
-    width: 465px;
+    width: 405px;
     height: 200px;
-    padding: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    float: right;
 }
 
 section {
-    background: #ebebeb;
     width: 495px;
     height: 200px;
     padding: 10px;
@@ -55,7 +53,7 @@ article {
     color: #ebebeb;
     background: #777;
     width: 450px;
-    height: 175px;
+    height: 100px;
     padding: 10px;
 }
 
@@ -63,13 +61,7 @@ p {
     color: #777;
     background: #ebebeb;
     width: 400px;
-    padding: 10px;
-}
-
-p {
-    color: #777;
-    background: #ebebeb;
-    width: 400px;
+    height: 50px;
     padding: 10px;
 }
 
@@ -77,6 +69,6 @@ footer {
     background: #ebebeb;
     padding: 20px;
     margin-bottom: 20px;
-    width: 960px;
+    width: 100%;
     clear: both;
 }
