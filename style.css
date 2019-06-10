@@ -1,21 +1,18 @@
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     color: #777;
-    text-align: center;
     background: #777;
+    text-align: center;
+}
+
+.container {
     width: 960px;
     margin: 100px auto;
     margin-top: 20px;
     margin-bottom: 80px;
     padding: 2px;
-    font-size: 18px;
     box-sizing: border-box;
-}
-
-section,article,p {
-    float: left;
 }
 
 header,nav,section,aside {
@@ -25,50 +22,56 @@ header,nav,section,aside {
 header {
     padding: 20px;
     margin-bottom: 20px;
-    width: 960px;
     color: #777;
 }
 
 nav {
     padding: 20px;
     margin-bottom: 20px;
-    width: 960px;
 }
 
 aside {
-    width: 405px;
+    width: 345px;
     height: 200px;
-    padding: 8px;
-    box-sizing: border-box;
+    padding: 40px;
+    margin-bottom: 20px;
     float: right;
 }
 
 section {
     width: 495px;
-    height: 200px;
+    height: 260px;
     padding: 10px;
+    margin-bottom: 20px;
+    float: left;
 }
 
 article {
     color: #ebebeb;
     background: #777;
     width: 450px;
-    height: 100px;
-    padding: 10px;
+    height: 160px;
+    padding: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    float: left;
 }
 
+/* Why aren't my p and h1 the same? */
 p {
     color: #777;
     background: #ebebeb;
-    width: 400px;
-    height: 50px;
-    padding: 10px;
+    width: 410px;
+    height: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    clear: both;
 }
 
 footer {
     background: #ebebeb;
     padding: 20px;
     margin-bottom: 20px;
-    width: 100%;
     clear: both;
 }
